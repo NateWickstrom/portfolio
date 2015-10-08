@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+    display: inline-block;
+    width: 100%;
+    min-width: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    min-width: 375px;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thick {
+    font-weight: bold;
+}
+
+.logo {
+    padding-top: 20px;
+    width: 100px;
+}
+
+.link-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 768px) {
+    .text-title {
+        font-size: 2em;
+    }
+    .project-title {
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .project-title {
+        font-size: 1.1em;
+    }
+}
